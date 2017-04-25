@@ -1,0 +1,15 @@
+<h1> All Photos</h1>
+
+<p>Add a new photo</p>
+
+
+<% @all_photos.each do |the_photo| %>
+<div>
+<img src = "<%= the_photo.source %>">
+
+<a href ="http://localhost:3000/photos/<%= the_photo.id %>">Show details</a>
+<a>Edit</a>
+<a>Delete</a>
+</div>
+
+<% end  %>
