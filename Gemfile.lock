@@ -18,7 +18,7 @@ GIT
       sprockets (< 4.1)
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actioncable (5.0.2)
       actionpack (= 5.0.2)
